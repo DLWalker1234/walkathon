@@ -24,14 +24,12 @@
 
 
 
-var nameInput = document.getElementById("exampleInputName2").value;
-var emailInput = document.getElementById("exampleInputEmail2").value;
-
 var donate = document.getElementById("donateBtn");
 donate.addEventListener("click", function() {
-	let nameInput = document.getElementById("exampleInputName2").value;
-	let emailInput = document.getElementById("exampleInputEmail2").value;
-	let money = document.getElementById("exampleInputAmount").value;
-	
+	var nameInput = document.getElementById("exampleInputName2").value;
+	var emailInput = document.getElementById("exampleInputEmail2").value;
+	var money = document.getElementById("exampleInputAmount").value;
+	console.log("hello");
+	console.log(nameInput, emailInput, money);
 
-})
+});
